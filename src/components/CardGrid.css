@@ -1,0 +1,40 @@
+.img-grid {
+	margin: 20px 200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px;
+}
+.card {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+    border: 2px solid rgb(223, 223, 223);
+	border-radius: 15px;
+	overflow: hidden;
+	/* padding controls height, will always be perfectly square regardless of width */
+	opacity: 0.8;
+	box-shadow: 0 0 10px 0 #c6c6c694;
+}
+
+.card img {
+	width: 100%;
+	height: 55%;
+}
+
+.card-body {
+	font-size: 18px;
+}
+
+.add-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+    border: 2px solid rgb(223, 223, 223);
+	border-radius: 15px;
+	overflow: hidden;
+	/* padding controls height, will always be perfectly square regardless of width */
+	opacity: 0.8;
+	box-shadow: 0 0 10px 0 #c6c6c694;
+}
